@@ -2,5 +2,31 @@
 # week4-assigment-vuetemplate
 Separation of the bsadmin template to components with vue
 
-Bsadmin verilen düz html css şablonun vue'de bileşenlere ayrılması  ,
+Bsadmin verilen düz html css şablonun vue'de bileşenlere ayrıldı, Express.js ile oluşturulan rest-api deki posts, users ve todos verileri vue appine çağırıldı.
 
+
+https://user-images.githubusercontent.com/76963353/156247650-8a4afce6-c066-47f8-97d7-f5d98f0881f3.mov
+
+
+## Installation
+
+Öncelikle projeyi clonelayın. 
+
+`git clone https://github.com/171-Logo-Siber-FullStack-Bootcamp/week4-assignment-emrecolak-23.git`
+
+## Usage
+
+Projeyi cloneladıktan sonra Visual Studio Code programında açınız.
+
+Linux için:
+
+`cd my-first-app
+code .`
+
+## Contributing
+
+Pull requestler kabul edilir. Büyük değişiklikler için,lütfen önce neyi değiştirmek istediğinizi tartışmak için bir konu açınız.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
