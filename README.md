@@ -4,30 +4,30 @@ Separation of the bsadmin template to components with vue
 
 Bsadmin verilen düz html css şablonun vue'de bileşenlere ayrıldı, Express.js ile oluşturulan rest-api deki posts, users ve todos verileri vue appine çağırıldı.
 
-.components
-├─ SideBar.vue
-├─ ContentWrapper.vue
-├─ .sideBar
- |      ├─ SideBarBrand.vue
- |      ├─ SideBarDivider.vue
- |      ├─ SideBarHeading.vue
- |      ├─ SideBarNavItem.vue
- |      ├─ SideBarNavItemMenu.vue
- |      └─ SideBarToggler.vue
-└─ .contentWrapper
-        ├─ MainContent.vue
-        └─ .mainContent
-                ├─ PageContent.vue
-                ├─ TopBar.vue
-                └─ .topBar
-                        ├─ TopBarNavBar.vue
-                        ├─ TopBarSearchVue
-                        ├─ SideBarToggle.vue
-                        └─ .topBarNavBar
-                                ├─ NavItemAlerts.vue
-                                ├─ NavItemMessages.vue
-                                ├─ NavItemUserInfo.vue
-                                └─ SearchDropdown.vue
+.components. 
+├─ SideBar.vue. 
+├─ ContentWrapper.vue. 
+├─ .sideBar. 
+ |      ├─ SideBarBrand.vue. 
+ |      ├─ SideBarDivider.vue. 
+ |      ├─ SideBarHeading.vue. 
+ |      ├─ SideBarNavItem.vue. 
+ |      ├─ SideBarNavItemMenu.vue. 
+ |      └─ SideBarToggler.vue. 
+└─ .contentWrapper. 
+        ├─ MainContent.vue. 
+        └─ .mainContent. 
+                ├─ PageContent.vue. 
+                ├─ TopBar.vue. 
+                └─ .topBar. 
+                        ├─ TopBarNavBar.vue. 
+                        ├─ TopBarSearchVue. 
+                        ├─ SideBarToggle.vue. 
+                        └─ .topBarNavBar. 
+                                ├─ NavItemAlerts.vue. 
+                                ├─ NavItemMessages.vue. 
+                                ├─ NavItemUserInfo.vue. 
+                                └─ SearchDropdown.vue. 
                                 
 https://user-images.githubusercontent.com/76963353/156247650-8a4afce6-c066-47f8-97d7-f5d98f0881f3.mov
 
