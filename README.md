@@ -4,30 +4,8 @@ Separation of the bsadmin template to components with vue
 
 Bsadmin verilen düz html css şablonun vue'de bileşenlere ayrıldı, Express.js ile oluşturulan rest-api deki posts, users ve todos verileri vue appine çağırıldı.
 
-.components. 
-├─ SideBar.vue. 
-├─ ContentWrapper.vue. 
-├─ .sideBar. 
- |      ├─ SideBarBrand.vue. 
- |      ├─ SideBarDivider.vue. 
- |      ├─ SideBarHeading.vue. 
- |      ├─ SideBarNavItem.vue. 
- |      ├─ SideBarNavItemMenu.vue. 
- |      └─ SideBarToggler.vue. 
-└─ .contentWrapper. 
-        ├─ MainContent.vue. 
-        └─ .mainContent. 
-                ├─ PageContent.vue. 
-                ├─ TopBar.vue. 
-                └─ .topBar. 
-                        ├─ TopBarNavBar.vue. 
-                        ├─ TopBarSearchVue. 
-                        ├─ SideBarToggle.vue. 
-                        └─ .topBarNavBar. 
-                                ├─ NavItemAlerts.vue. 
-                                ├─ NavItemMessages.vue. 
-                                ├─ NavItemUserInfo.vue. 
-                                └─ SearchDropdown.vue. 
+![Screen Shot 2022-03-06 at 11 06 12](https://user-images.githubusercontent.com/76963353/156914819-88d216c7-fcf0-47e7-8338-4135d52d97f7.png)
+
                                 
 https://user-images.githubusercontent.com/76963353/156247650-8a4afce6-c066-47f8-97d7-f5d98f0881f3.mov
 
